@@ -2,7 +2,7 @@
 using namespace std;
 
 // print 1 --> n withput using +1 sign
-
+// parameterized recursion
 void func_without_1(int n)
 {
     if(n<1)
