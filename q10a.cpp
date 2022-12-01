@@ -1,14 +1,12 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int fib_iter(int n)
+long long fib_iter(int n)
 {
     if(n<=1)
         return n;
     
-    int f1=0;
-    int f2=1;
-    int f=0;
+    long long f1=0,f2=1,f=0;
     for(int i=2;i<=n;i++)
     {
         f=f1+f2;
